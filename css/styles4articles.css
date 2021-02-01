@@ -1,0 +1,97 @@
+html {
+	font-size: 100%;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	font-size: 16px;
+ 	position: relative;
+}
+
+article {
+	position: relative;
+	padding: 5%;
+	text-align: justify;
+}
+
+body:before {
+  	content: '';
+  	background-image: url('../images/bg.jpg');
+  	background-position: center;
+  	background-size: cover;
+	position: fixed;
+  	left: 0;
+  	top: 0;
+  	bottom: 0;
+  	width: 100vw;    
+  	opacity: 0.2;
+  	z-index: -1;
+  	height: 100vh;
+}
+
+h1 {
+  font-size: 3em;  
+  text-align: center;
+}
+
+/*h1:after {
+	content:url('../images/text-separator.png');
+	width: 100%;
+	display: block;
+	margin: 0 auto;	
+}*/
+
+.text-separator{
+	width: 50%;
+	display: block;
+	margin: 0 auto;	
+}
+
+.chapter-mark {
+	text-align: center;
+}
+
+/*.left-indent {
+  padding-left: 2em;
+}*/
+
+p, ul 	{
+	font-size: 2em;
+}
+
+p:before {
+  content: '';
+  display: inline-block;
+  width: 1.5em;
+}
+
+@media screen and (max-width: 768px){
+	h1 {
+	  	font-size: 1.7em;  
+	  	text-align: center;
+	}
+	p {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 435px){
+	h1 {
+	  	font-size: 1.25em;  
+	  	text-align: center;
+	}
+	p {
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 330px){
+	h1 {
+	  	font-size: 1.1em;  
+	  	text-align: center;
+	}
+	p {
+		font-size: 0.9em;
+	}
+}
