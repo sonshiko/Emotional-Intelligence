@@ -32,7 +32,13 @@ body:before {
 
 h1 {
   font-size: 1.25em;  
+  text-align: center;  
+}
+
+.bookTitle {
+  font-size: 1.5em;  
   text-align: center;
+  text-decoration: underline;  
 }
 
 /*h1:after {
