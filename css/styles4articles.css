@@ -71,7 +71,7 @@ p:before {
 	  	font-size: 1.7em;  
 	  	text-align: center;
 	}
-	p {
+	p, ul {
 		font-size: 1.3em;
 	}
 }
@@ -81,7 +81,7 @@ p:before {
 	  	font-size: 1.25em;  
 	  	text-align: center;
 	}
-	p {
+	p, ul {
 		font-size: 1.1em;
 	}
 }
@@ -91,7 +91,7 @@ p:before {
 	  	font-size: 1.1em;  
 	  	text-align: center;
 	}
-	p {
+	p, ul {
 		font-size: 0.9em;
 	}
 }
