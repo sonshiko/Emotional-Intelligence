@@ -15,7 +15,7 @@ article {
 	text-align: justify;
 }
 
-body:before {
+/*body:before {
   	content: '';
   	background-image: url('../images/bg.jpg');
   	background-position: center;
@@ -28,7 +28,7 @@ body:before {
   	opacity: 0.2;
   	z-index: -1;
   	height: 100vh;
-}
+}*/
 
 h1 {
   font-size: 3em;  
@@ -42,7 +42,7 @@ h1 {
 	margin: 0 auto;	
 }*/
 
-.text-separator{
+.text-separator {
 	width: 50%;
 	display: block;
 	margin: 0 auto;	
@@ -66,6 +66,12 @@ p:before {
   width: 1.5em;
 }
 
+.copyrightOf {
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: right;
+}
+
 @media screen and (max-width: 768px){
 	h1 {
 	  	font-size: 1.7em;  
@@ -73,6 +79,9 @@ p:before {
 	}
 	p, ul {
 		font-size: 1.3em;
+	}
+	.copyrightOf {
+		font-size: 1.1em;
 	}
 }
 
@@ -84,6 +93,9 @@ p:before {
 	p, ul {
 		font-size: 1.1em;
 	}
+	.copyrightOf {
+		font-size: 0.9em;
+	}
 }
 
 @media screen and (max-width: 330px){
@@ -93,5 +105,8 @@ p:before {
 	}
 	p, ul {
 		font-size: 0.9em;
+	}
+	.copyrightOf {
+		font-size: 0.7em;
 	}
 }

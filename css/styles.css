@@ -9,12 +9,6 @@ body {
  	position: relative;
 }
 
-article {
-	position: relative;
-	padding: 5%;
-	text-align: justify;
-}
-
 body:before {
   	content: '';
   	background-image: url('../images/bg.jpg');
@@ -33,6 +27,23 @@ body:before {
 h1 {
   font-size: 1.25em;  
   text-align: center;  
+}
+
+article {
+	position: relative;
+	padding: 5%;
+	text-align: justify;
+}
+
+.story {
+	width: 100vw;
+	padding: 2.5%;
+	margin-bottom: 10px;
+}
+
+.story img {
+	width: 95vw;
+	margin: 0 auto;
 }
 
 .bookTitle {
@@ -79,6 +90,19 @@ p:before {
 	}
 	p {
 		font-size: 1.3em;
+	}
+	.story {
+		display: inline;
+	}
+	.story img {		
+		width: 45vw;
+		margin: 0 auto;
+	}
+
+	.bookTitle {
+		font-size: 1.5em;  
+		text-align: center;
+		text-decoration: underline;  
 	}
 }
 
