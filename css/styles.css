@@ -29,15 +29,18 @@ h1 {
   text-align: center;  
 }
 
-article {
-	position: relative;
-	padding: 5%;
+section {
+	width: 100vw;	
 	text-align: justify;
 }
 
+.text-wrapper {
+	
+}
 .story {
+	display: block;
 	width: 100vw;
-	padding: 2.5%;
+	padding: 2%;
 	margin-bottom: 10px;
 }
 
@@ -95,7 +98,7 @@ p:before {
 		display: inline;
 	}
 	.story img {		
-		width: 45vw;
+		width: 44vw;
 		margin: 0 auto;
 	}
 
